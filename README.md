@@ -1,0 +1,2 @@
+# Funding smart contract
+Need fundraising? Deploy this smart contract so people can fund you! Funders can send funds to this contract a minimum of 50 USD. Only you as the contract owner can withdraw funds to your wallet. This smart contract gets the latest ETH market value so you get the accurate conversion.
