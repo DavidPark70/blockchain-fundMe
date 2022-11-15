@@ -9,16 +9,12 @@ library PriceConverter {
             0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e
         );
         (
-            ,
-            /* uint80 roundId */
+            /* uint80 roundId */,
             int256 price,
-            ,
-            ,
-
-        ) = /* uint256 startedAt */
-            /* uint256 updatedAt */
+            /* uint256 startedAt */,
+            /* uint256 updatedAt */,
             /* uint80 answeredInRound */
-            priceFeed.latestRoundData();
+        ) = priceFeed.latestRoundData();
 
         // ETH in terms of USD
         return uint256(price * 1e10);
